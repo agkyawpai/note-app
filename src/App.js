@@ -48,9 +48,13 @@ function App() {
       ]
     )
   }
+
+  const deleteNote = (id) => {
+    setNotes(notes.filter((note)=>note.id!=id))
+  }
   return (
     <div className="container">
-      <NoteList note={notes} handleAddNote={addNote} />
+      <NoteList note={notes} handleAddNote={addNote} handleDeleteNote={deleteNote} />
     </div>
   );
 }
