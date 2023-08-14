@@ -35,6 +35,32 @@ code {
   justify-content: space-between;
 }
 
+.note.new {
+  background-color: #42daca;
+}
+
+textarea {
+  border: none;
+  resize: none;
+  background-color: #42daca;
+}
+
+textarea:focus {
+  outline: none; 
+}
+
+.save {
+  background-color: rgb(232, 229, 229);
+  border: none;
+  border-radius: 15px;
+  padding: 5px 10px 5px 10px;
+}
+
+.save:hover {
+  background-color: rgb(191, 191, 191);
+  cursor: pointer;
+}
+
 .note-footer {
   display: flex;
   align-items: center;
