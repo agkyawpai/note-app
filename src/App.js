@@ -1,7 +1,9 @@
+import NoteList from "./components/NoteList";
+
 function App() {
   return (
-    <div className="App">
-      <p>Hello React</p>
+    <div className="container">
+      <NoteList />
     </div>
   );
 }
